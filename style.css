@@ -22,7 +22,7 @@ body{
 
 .animated-text span::before{
     content: "Innovator";
-    color: #32cd32;
+    color: black;
     animation: words 20s infinite;
 }
 
