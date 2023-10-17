@@ -15,3 +15,57 @@ body{
     font-weight: 600;
     min-width: 280px;
 }
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Innovator";
+    color: rgb(14, 14, 150);
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: black;
+    border-left: 2px solid #32cd32;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20, steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #32cd3200;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Innovator";
+    }
+    21%,40%{
+        content: "Jamaican";
+    }
+    41%,60%{
+        content: "Developer";
+    }
+    61%,80%{
+        content: "Designer";
+    }
+    81%,100%{
+        content: "Howard University Bison";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
