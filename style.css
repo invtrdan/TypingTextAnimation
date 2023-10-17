@@ -9,3 +9,9 @@ body{
     justify-content: center;
     font-family: "Montserrat", sans-serif;
 }
+
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
