@@ -45,19 +45,19 @@ body{
 
 @keyframes words {
     0%,20%{
-        content: "Innovator";
+        content: "Innovator 💡";
     }
     21%,40%{
-        content: "Jamaican";
+        content: "Jamaican 🇯🇲";
     }
     41%,60%{
-        content: "Developer";
+        content: "Developer 👩🏽‍💻";
     }
     61%,80%{
-        content: "Designer";
+        content: "Designer 👩🏽‍💻";
     }
     81%,100%{
-        content: "Howard University Bison";
+        content: "";
     }
 }
 
