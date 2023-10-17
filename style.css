@@ -2,12 +2,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
-    color: black;
+    color: blue;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "American Typewriter", sans-serif;
+    font-family: "Monsterrat", sans-serif;
 }
 
 .animated-text{
