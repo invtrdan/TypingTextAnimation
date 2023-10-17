@@ -2,12 +2,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
-    color: white;
+    color: black;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "American Typewriter", monospace;
+    font-family: "Montserrat", sans-serif;
 }
 
 .animated-text{
