@@ -32,9 +32,9 @@ body{
     width: calc(100% + 8px);
     height: 100%;
     background-color: white;
-    border-left: 2px solid #32cd32;
+    border-left: 2px solid black;
     right: -8px;
-    animation: cursor .8s infinite, typing 20, steps(14) infinite;
+    animation: cursor .8s infinite, typing 20s, steps(14) infinite;
 }
 
 @keyframes cursor {
