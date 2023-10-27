@@ -1,2 +1,2 @@
 # Typing Text Animation
-Typing text animation using HTML &amp; CSS
+Typing text animation using HTML &amp; CSS.
